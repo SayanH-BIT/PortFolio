@@ -1,0 +1,52 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+  }
+  
+  .navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  .navbar .hamburger .line1.active {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .navbar .hamburger .line2.active {
+    opacity: 0;
+  }
+  
+  .navbar .hamburger .line3.active {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
